@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #222;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #111;
+    margin: 4px 0;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+input:focus{
+    background: #000;
+    transform: scale(1.01);
+}
+
+.price input{
+    width: 20%;
+}
+
+#total{
+    background: rgb(206, 10, 10);
+    font-size: large;
+    padding: 3px 12px;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+#total::before{
+    content: 'TOTAL:   ';
+}
+
+button{
+    width: 100%;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    background: rgb(7, 121, 7);
+    color: beige;
+    transition: 0.5s;
+}
+
+button:hover{
+    background:rgb(8, 144, 8);
+    letter-spacing: 0.7px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+#deleteAll button{
+    margin: 10px 0;
+    background : rgb(206, 10, 10);
+}
+
+#search{
+    margin-top: 10px;
+}
+
+.btnSearch button{
+    width: 49.5%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+table th{
+    text-transform: uppercase;
+}
+
+td,th{
+    padding: 5px;
+}
+table td button{
+    background-color: rgb(158, 118, 7);
+    text-transform: uppercase;
+}
+
+table td button:hover{
+    background:rgb(173, 129, 8);
+    letter-spacing: 0.7px;
+}
+
+#searchTitle{
+    background: rgb(10, 83, 105);
+    text-transform: uppercase;
+}
+#searchCategory{
+    background: rgb(10, 83, 105);
+    text-transform: uppercase;
+}
