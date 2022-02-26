@@ -64,8 +64,6 @@ if (title.value != '' && category.value !='' && count.value<100 && price.value>=
     count.style.display = "block";
     }
     clearData();
-}else{
-    alert('Ohh! you forgot to write something right!');
 }
 
 //save LocalStorage
